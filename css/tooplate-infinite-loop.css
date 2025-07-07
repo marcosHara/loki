@@ -9,13 +9,14 @@ https://www.tooplate.com/view/2117-infinite-loop
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 body {
-	font-family: "Raleway", sans-serif;
-	font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
   color: #707070;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
+
 a {
   transition: all 0.3s ease;
   color: #38B;
@@ -55,7 +56,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: green;
 }
 
 .tm-font-big {
@@ -64,14 +65,14 @@ blockquote {
 
 .tm-btn-primary {
   color: white;
-  background-color: #369;
+  background-color: green;
   padding: 14px 30px;
 }
 
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: green;
 }
 
 /* Navbar */
@@ -90,7 +91,7 @@ blockquote {
 }
 
 .navbar-brand {
-  color: white;
+  color: #369;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -120,7 +121,7 @@ blockquote {
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
   color: #FFF;
-  background-color: #369;
+  background-color: red;
 }
 
 .navbar-toggler {
@@ -145,8 +146,8 @@ blockquote {
 /* Hero */
 
 #infinite {
-	background-color: #222;
-  background-image: url(../img/infinite-loop-01.jpg);
+  background-color: #222;
+  background-image: url(../img/31214-1920x1080-desktop-1080p-japan-background-image.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -198,6 +199,7 @@ blockquote {
 .tm-hero-title {
   font-size: 3.5rem;
   text-shadow: 2px 2px 2px #333;
+  color: #369;
 }
 
 .tm-hero-subtitle {
@@ -227,17 +229,17 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #FFF;
-    cursor: pointer;
-    background: #357;
-    padding: 15px 40px;
-    transition: all 0.3s ease;
+  color: #FFF;
+  cursor: pointer;
+  background: rgb(202, 193, 193);
+  padding: 15px 40px;
+  transition: all 0.3s ease;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: #37A;
+  background: red;
   padding: 20px 50px;
 }
 
@@ -258,21 +260,25 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #37A;
+  color: red;
 }
 
 .tm-continue {
-	padding: 20px 0 30px 0;
+  padding: 20px 0 30px 0;
 }
 
 /* Testimonials */
 #testimonials {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background-image: url(../img/old-japanese-mrgge1gb9t35s07p.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+}
+
+#testimonials h2 {
+  color: green;
 }
 
 @media (max-width: 991px) {
@@ -389,7 +395,7 @@ blockquote {
 
 .grid figure figcaption {
   padding: 2em;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
@@ -402,7 +408,7 @@ blockquote {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -412,7 +418,7 @@ blockquote {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -506,15 +512,15 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-container-gallery {
-	padding-top: 30px;
-	}
+  padding-top: 30px;
+}
 
 /* Contact */
 
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  background-image: url(../img/imagemFundo.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
@@ -545,8 +551,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-input {
-	margin: 0 0 20px 0;
-	width: 90%;
+  margin: 0 0 20px 0;
+  width: 90%;
   padding: 8px 20px;
   border-radius: 6px;
   border: 1px solid white;
@@ -555,22 +561,23 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-btn-submit {
-	font-size: 0.9em;
-	color: #fff;
-	background-color: #369;
-	width: 50%;
-	margin-bottom: 60px;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #369;
+  width: 50%;
+  margin-bottom: 60px;
 }
 
 .tm-btn-submit:hover {
-	color: #fff;
-	background-color: #38B;
+  color: #fff;
+  background-color: #38B;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1;
+  /* Firefox */
 }
 
 :-ms-input-placeholder {
@@ -592,11 +599,11 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer a {
-	color: #fff;
+  color: #fff;
 }
 
 .tm-footer a:hover {
-	color: #9CF;
+  color: #9CF;
 }
 
 .tm-footer-link {
@@ -674,7 +681,7 @@ p {
 
   .navbar-collapse .nav-link {
     color: #707070;
-	padding-right: 20px;
+    padding-right: 20px;
   }
 }
 
